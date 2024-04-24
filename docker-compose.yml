@@ -31,6 +31,7 @@ services:
         PHP_VERSION: $PHP_VERSION
         SWOOLE_VERSION: $SWOOLE_VERSION
         AMQP_VERSION: $AMQP_VERSION
+        PHPREDIS_VERSION: $PHPREDIS_VERSION
     ports:
       - "9501:9501"
     volumes:
